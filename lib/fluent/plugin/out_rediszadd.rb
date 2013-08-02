@@ -85,7 +85,7 @@ module Fluent
         if val.has_key?(k)
           val = val[k]
         else
-          return null
+          return nil
         end
       }
       return val
